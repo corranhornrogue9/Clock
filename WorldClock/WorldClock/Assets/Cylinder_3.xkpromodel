@@ -1,0 +1,10 @@
+!ProceduralModelAsset
+Id: 46076c48-b9d0-46ad-a4f6-41b8f44da347
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: !CylinderProceduralModel
+    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+    UvScale: {X: 1.0, Y: 1.0}
+    LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    MaterialInstance:
+        Material: 6a17c13c-fda1-42cc-a346-0e352f9dff13:01

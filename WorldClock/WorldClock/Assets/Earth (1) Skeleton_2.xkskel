@@ -1,0 +1,11 @@
+!Skeleton
+Id: d5db0ac5-4679-4110-901b-c7956f15ca10
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file Earth (1).obj
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    7f2d180241a1cba0713e704a04a1d59c: {Name: Earth(1).obj, Depth: 0}
+    5e9f0ac7e072ee959aa348ed2195fce2: {Name: Earth, Depth: 1}
+~SourceHashes:
+    ae4503e5e7dfcc6dec941ee7bcf33182~Earth (1).obj: 664c829d8e0adc9bd32df2ce369f6d9b

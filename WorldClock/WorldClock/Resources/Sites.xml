@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sites>
+<Country captial="London">
+	<Site>
+		<Name>London</Name>
+		<Long>0</Long>
+		<Lat>52</Lat>
+		<UTCOffset>0</UTCOffset>
+		<Blurb></Blurb>
+	</Site>
+	<Site>
+		<Name>Bristol</Name>
+		<Long>2.5</Long>
+		<Lat>51</Lat>
+		<UTCOffset>0</UTCOffset>
+		<Blurb></Blurb>
+	</Site>
+	<Site>
+		<Name>Gloucester</Name>
+		<Long>2.2</Long>
+		<Lat>51.8</Lat>
+		<UTCOffset>0</UTCOffset>
+		<Blurb></Blurb>
+	</Site>
+	<Site>
+		<Name>Manchester</Name>
+		<Long>2.24</Long>
+		<Lat>53.48</Lat>
+		<UTCOffset>0</UTCOffset>
+		<Blurb></Blurb>
+	</Site>
+</Country>
+<Country captial="Australia">
+	<Site>
+		<Name>New South Wales</Name>
+		<Long>146.9</Long>
+		<Lat>-31.2</Lat>
+		<UTCOffset>11</UTCOffset>
+		<Blurb></Blurb>
+	</Site>
+	<Site>
+		<Name>Sydney</Name>
+		<Long>151.2</Long>
+		<Lat>-33.8</Lat>
+		<UTCOffset>11</UTCOffset>
+		<Blurb></Blurb>
+	</Site>
+	<Site>
+		<Name>Tasmania</Name>
+		<Long>145.9</Long>
+		<Lat>-41.45</Lat>
+		<UTCOffset>11</UTCOffset>
+		<Blurb></Blurb>
+	</Site>
+</Country>
+	<Country captial="Brussels">
+		<Site>
+			<Name>Brussels</Name>
+			<Long>4.3517</Long>
+			<Lat>50.8</Lat>
+			<UTCOffset>1</UTCOffset>
+			<Blurb></Blurb>
+		</Site>
+	</Country>
+</Sites>

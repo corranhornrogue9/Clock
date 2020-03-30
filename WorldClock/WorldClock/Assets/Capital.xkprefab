@@ -1,0 +1,82 @@
+!PrefabAsset
+Id: 6e48f346-97bd-4426-810e-d5434062f3fa
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 8b636a22-5f96-43dd-9672-0bc6d1adfae3
+    Parts:
+        -   Entity:
+                Id: 50b1fade-1a75-4968-b5de-eb1a7d2b5806
+                Name: box
+                Components:
+                    63ef2e59ba6ae6fb39c89806a38d70c0: !TransformComponent
+                        Id: 1d0c3c7b-5c95-4b0c-879a-f16c4fc1552f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 20.0, Y: 20.0, Z: 20.0}
+                        Children: {}
+                    557565404dc04bcc584c445007aeeb97: !ModelComponent
+                        Id: 19d062d4-26a6-4007-b13f-f5ef3e0a4009
+                        Model: efeb72e3-bc54-454f-8c0f-e6bf359fe4bb:box
+                        Materials: {}
+        -   Entity:
+                Id: 7dd0f04e-e60d-41ee-9cf3-7f288e18a8f9
+                Name: SunDisk
+                Components:
+                    3080d560bf6b70dcdcbe8cb25b84a705: !TransformComponent
+                        Id: fa8215c8-93c9-43d9-b401-cdace642b99a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            ce2a4f5f6ea0de8724d705f39ddc96be: ref!! 522071f4-0d9c-49dd-b613-bf9c19c224bb
+            Base:
+                BasePartAsset: 2f9fc30e-d1b9-4a21-8e5a-5373cb66a047:SunDisk (5)
+                BasePartId: 52a057d4-6a1f-4199-ab54-d778927a4ece
+                InstanceId: 4c922efb-9989-4621-af6f-f803c8ce090e
+        -   Entity:
+                Id: 8b636a22-5f96-43dd-9672-0bc6d1adfae3
+                Name: SunDisk (3)
+                Components:
+                    5a8e8ecede734c90dbe004a700c9334a: !TransformComponent
+                        Id: 6d53709b-b98d-4080-9e13-ca71f0277235
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            b7bde5126a0fd6b9f1c21c40a75952fb: ref!! fa8215c8-93c9-43d9-b401-cdace642b99a
+                            a76b504440cfa6d7ee1d470475af4926: ref!! 1d0c3c7b-5c95-4b0c-879a-f16c4fc1552f
+        -   Entity:
+                Id: 9523094d-4538-4225-98fd-68dc722146fa
+                Name: SunDisk (2)
+                Components:
+                    df75739ed17e53ba22f60023e3a2619f: !TransformComponent
+                        Id: 522071f4-0d9c-49dd-b613-bf9c19c224bb
+                        Position: {X: 74.70708, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.707106769, W: 0.707106769}
+                        Scale: {X: 0.1, Y: 0.05, Z: 0.1}
+                        Children:
+                            d5c8aee4dba8c5a6b837029a44363088: ref!! 2c54ae83-1194-483c-a086-207c959d7f84
+            Base:
+                BasePartAsset: 2f9fc30e-d1b9-4a21-8e5a-5373cb66a047:SunDisk (5)
+                BasePartId: a6118534-13ae-4801-867b-cda4b3519cf1
+                InstanceId: 4c922efb-9989-4621-af6f-f803c8ce090e
+        -   Entity:
+                Id: aab9e381-5f7a-46c4-aaab-fb6f593052d6
+                Name: SunDisk
+                Components:
+                    20429d4c1384535b1f4b4cdc69b9bb17: !TransformComponent
+                        Id: 2c54ae83-1194-483c-a086-207c959d7f84
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3640fb783f3c87894e2e1c2d0d897c07: !ModelComponent
+                        Id: 8fc2c610-5c01-4027-b2ee-0ce766bd0bb4
+                        Model: 4b9ea0d4-7450-4a54-885d-8b7ef31ece48:SunDisk
+                        Materials: {}
+            Base:
+                BasePartAsset: 2f9fc30e-d1b9-4a21-8e5a-5373cb66a047:SunDisk (5)
+                BasePartId: b5c014cf-6ac1-429a-9250-4147220541f9
+                InstanceId: 4c922efb-9989-4621-af6f-f803c8ce090e

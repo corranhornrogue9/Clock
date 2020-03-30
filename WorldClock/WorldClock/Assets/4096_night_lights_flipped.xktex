@@ -1,0 +1,7 @@
+!Texture
+Id: 0d7233db-f554-4f1b-a5b8-f66fb841d8a3
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file 4096_night_lights_flipped.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

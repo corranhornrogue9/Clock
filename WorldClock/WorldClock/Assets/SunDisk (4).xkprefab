@@ -1,0 +1,82 @@
+!PrefabAsset
+Id: aee1100e-a54e-4883-9bd9-967eaadc524c
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 49d0c568-12ea-4c4a-a7dc-2a5eaf635cbd
+    Parts:
+        -   Entity:
+                Id: 1a56a043-cba4-48b4-bcfa-4e09bdb62422
+                Name: SunDisk
+                Components:
+                    3080d560bf6b70dcdcbe8cb25b84a705: !TransformComponent
+                        Id: f6c83506-1d2e-4b12-80d8-c931d894254c
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            ce2a4f5f6ea0de8724d705f39ddc96be: ref!! 19cc0cde-ddad-47d8-9cae-0f8df40e1e86
+            Base:
+                BasePartAsset: 7de8bb82-d453-4c7f-abe9-649bee2d2d26:SunDisk (3)
+                BasePartId: a8a3d9db-66da-4162-ac91-48da8604e184
+                InstanceId: 31f5a6a0-17c9-41be-a521-4d63583a46ce
+        -   Entity:
+                Id: 26a0318f-c18a-4e02-a20d-34f2371deaae
+                Name: SunDisk
+                Components:
+                    20429d4c1384535b1f4b4cdc69b9bb17: !TransformComponent
+                        Id: 6cae37e7-3088-46b6-9e33-4ec93c1a74e5
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3640fb783f3c87894e2e1c2d0d897c07: !ModelComponent
+                        Id: de3e2e4c-6a28-4812-ac83-ce1d0628474a
+                        Model: 4b9ea0d4-7450-4a54-885d-8b7ef31ece48:SunDisk
+                        Materials: {}
+            Base:
+                BasePartAsset: 7de8bb82-d453-4c7f-abe9-649bee2d2d26:SunDisk (3)
+                BasePartId: ec238a49-6b3e-49fa-87b0-3475060eb975
+                InstanceId: 31f5a6a0-17c9-41be-a521-4d63583a46ce
+        -   Entity:
+                Id: 49d0c568-12ea-4c4a-a7dc-2a5eaf635cbd
+                Name: SunDisk (3)
+                Components:
+                    5a8e8ecede734c90dbe004a700c9334a: !TransformComponent
+                        Id: 189919ef-9991-43e0-903b-4a989cdfbbfb
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            b7bde5126a0fd6b9f1c21c40a75952fb: ref!! f6c83506-1d2e-4b12-80d8-c931d894254c
+                            a76b504440cfa6d7ee1d470475af4926: ref!! d88bd056-8912-4b04-b6dc-14f91fca842e
+        -   Entity:
+                Id: 68809bf5-b0d2-4a1a-806c-ee8b3c8a35ee
+                Name: SunDisk (2)
+                Components:
+                    df75739ed17e53ba22f60023e3a2619f: !TransformComponent
+                        Id: 19cc0cde-ddad-47d8-9cae-0f8df40e1e86
+                        Position: {X: 75.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.707106769, W: 0.707106769}
+                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
+                        Children:
+                            d5c8aee4dba8c5a6b837029a44363088: ref!! 6cae37e7-3088-46b6-9e33-4ec93c1a74e5
+            Base:
+                BasePartAsset: 7de8bb82-d453-4c7f-abe9-649bee2d2d26:SunDisk (3)
+                BasePartId: 61951346-c1a9-4caa-942c-25347218ac73
+                InstanceId: 31f5a6a0-17c9-41be-a521-4d63583a46ce
+        -   Entity:
+                Id: 971712c5-da7a-48c8-a189-85067cc1a2dd
+                Name: box
+                Components:
+                    63ef2e59ba6ae6fb39c89806a38d70c0: !TransformComponent
+                        Id: d88bd056-8912-4b04-b6dc-14f91fca842e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 20.0, Y: 20.0, Z: 20.0}
+                        Children: {}
+                    557565404dc04bcc584c445007aeeb97: !ModelComponent
+                        Id: b6398b0c-1b7f-40af-bd19-60028a47c1a2
+                        Model: efeb72e3-bc54-454f-8c0f-e6bf359fe4bb:box
+                        Materials: {}

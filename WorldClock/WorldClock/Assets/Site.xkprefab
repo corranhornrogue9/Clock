@@ -1,0 +1,81 @@
+!PrefabAsset
+Id: 5321cd2f-6998-409e-9523-9590d5abd0b7
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 4612a3f4-c8c7-4ca4-b7b3-4eccca8c8960
+    Parts:
+        -   Entity:
+                Id: 25d5da34-c506-45b9-9cd4-c90a1f976fd0
+                Name: box
+                Components:
+                    63ef2e59ba6ae6fb39c89806a38d70c0: !TransformComponent
+                        Id: 46e84ca9-be8c-4dd0-a745-e96c9159846a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 20.0, Y: 20.0, Z: 20.0}
+                        Children: {}
+                    557565404dc04bcc584c445007aeeb97: !ModelComponent
+                        Id: 31e60209-37fa-41cc-8ab6-f89f4e64484d
+                        Model: efeb72e3-bc54-454f-8c0f-e6bf359fe4bb:box
+                        Materials: {}
+        -   Entity:
+                Id: 4612a3f4-c8c7-4ca4-b7b3-4eccca8c8960
+                Name: SunDisk (4)
+                Components:
+                    4c7d28b56b844844a953162cbb89787e: !TransformComponent
+                        Id: 8194d0b0-0107-421a-bba1-e6c457034fca
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            1a85aca6d72cba8c591dfffa634a6224: ref!! 39412180-2735-4e1a-877b-bededa2f42a2
+        -   Entity:
+                Id: 66dd0e55-0bfd-4292-8b00-782ad85e3f23
+                Name: SunDisk (2)
+                Components:
+                    df75739ed17e53ba22f60023e3a2619f: !TransformComponent
+                        Id: 177602ee-592b-47ec-908b-7fb88e304e8c
+                        Position*: {X: 74.5339, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.707106769, W: 0.707106769}
+                        Scale: {X: 0.05, Y: 0.1, Z: 0.05}
+                        Children:
+                            d5c8aee4dba8c5a6b837029a44363088: ref!! 0349000e-869c-4f02-ad3f-0b8acf1431f0
+        -   Entity:
+                Id: 8e0a3375-f662-4f10-971b-9b3cf1b13bc3
+                Name: SunDisk
+                Components:
+                    3080d560bf6b70dcdcbe8cb25b84a705: !TransformComponent
+                        Id: 9d2df068-1f16-4d31-b47e-33c218dbec52
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            ce2a4f5f6ea0de8724d705f39ddc96be: ref!! 177602ee-592b-47ec-908b-7fb88e304e8c
+        -   Entity:
+                Id: a6407ae2-c595-4525-a4e0-56dd8ee00e15
+                Name: SunDisk
+                Components:
+                    20429d4c1384535b1f4b4cdc69b9bb17: !TransformComponent
+                        Id: 0349000e-869c-4f02-ad3f-0b8acf1431f0
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3640fb783f3c87894e2e1c2d0d897c07: !ModelComponent
+                        Id: 63778677-67bb-43db-b714-faf36ffd8bdc
+                        Model: 4b9ea0d4-7450-4a54-885d-8b7ef31ece48:SunDisk
+                        Materials: {}
+        -   Entity:
+                Id: ae445802-2cb5-490f-8518-34effc4bd07a
+                Name: SunDisk (3)
+                Components:
+                    5a8e8ecede734c90dbe004a700c9334a: !TransformComponent
+                        Id: 39412180-2735-4e1a-877b-bededa2f42a2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            b7bde5126a0fd6b9f1c21c40a75952fb: ref!! 9d2df068-1f16-4d31-b47e-33c218dbec52
+                            a76b504440cfa6d7ee1d470475af4926: ref!! 46e84ca9-be8c-4dd0-a745-e96c9159846a

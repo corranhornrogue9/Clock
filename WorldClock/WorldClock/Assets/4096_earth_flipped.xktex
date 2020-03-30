@@ -1,0 +1,7 @@
+!Texture
+Id: 9d752ad8-9e1d-4afc-8ab8-dae4c7bedc86
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file 4096_earth_flipped.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,27 @@
+!MaterialAsset
+Id: 0d5d4b2f-0ce1-4e5f-b3e4-b4f7565d3cab
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: 9d752ad8-9e1d-4afc-8ab8-dae4c7bedc86:4096_earth_flipped
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Emissive: !MaterialEmissiveMapFeature
+        EmissiveMap: !ComputeTextureColor
+            Texture: 0d7233db-f554-4f1b-a5b8-f66fb841d8a3:4096_night_lights_flipped
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+        Intensity: !ComputeFloat
+            Value: 0.1
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}
